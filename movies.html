@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>CGV | 영화</title>
+    <link rel="icon" sizes="16x16" type="image/png" href="src/img/favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/movies.css">
+    <script src="js/header_mobile.js" defer></script>
+    <script type="module" src="js/movies_categoryBtnHandler.js" defer></script>
+    <script type="module" src="js/movies_dateCount.js" defer></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <a href="#main" class="hidden">메인으로 이동</a>
+        <header class="bg_w">
+            <div class="header_inner">
+                <h1 class="header__title">
+                    <a href="index.html"><img src="src/img/logo.png" alt="씨지비 홈으로"></a>
+                </h1>
+                <button class="menuOpen"><i class="fas fa-bars fa-2x"></i></button>
+                <div class="mobile">
+                    <nav class="gnb cf">
+                        <a href="#">예매</a>
+                        <a href="movies.html">영화</a>
+                        <a href="#">영화관</a>
+                        <a href="event.html">이벤트</a>
+                        <a href="#">스토어</a>
+                    </nav>
+                    <ul class="tnb_left cf">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                    </ul>
+                    <ul class="tnb_right cf">
+                        <li><a href="https://www.facebook.com/CJCGV" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.instagram.com/cgv_korea/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCmjUMtUw6wXLrsULdxuXWdg" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <button class="menuClose"><i class="fas fa-times fa-2x"></i></button>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section>
+                <h2 class="hidden">영화 목록</h2>
+                <div class="categoryBtns cf">
+                    <button id="show" class="on">현재 상영작</button>
+                    <button id="release">개봉 예정작</button>
+                </div>
+                <div class="content">
+                    <ul class="contentListContainer moviesListContainer cf">
+                    
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer_inner">
+                <img src="src/img/logo.png" alt="씨지비 로고">
+                <ul class="links cf">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">IR</a></li>
+                    <li><a href="#">채용정보</a></li>
+                    <li><a href="#">광고/프로모션문의</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                    <li><a href="#">출점문의</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">편성기준</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">법적고지</a></li>
+                    <li><a href="#">이메일주소무단수집거부</a></li>
+                    <li><a href="#">상생경영</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <div class="address_container">
+                    <address>(04377)서울특별시 용산구 한강대로 23길 55, 아이파크몰 6층(한강로동)</address>
+                    <ul class="cf">
+                        <li>대표이사 : 최병환</li>
+                        <li>사업자등록번호 : 104-81-45690</li>
+                        <li>통신판매업신고번호 : 2017-서울용산-0662</li>
+                        <li>호스팅사업자 : CJ올리브네트웍스</li>
+                        <li>개인정보보호 책임자 : 이동현</li>
+                        <li>대표이메일 : cjcgvmaster@cj.netCGV</li>
+                        <li>고객센터 : 1544-1122</li>
+                    </ul>
+                </div>
+                <p class="copyright">COPY &copy; CJ CGV. All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+</body></html>

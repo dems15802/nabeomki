@@ -1,0 +1,81 @@
+<li>
+    <a href="#">
+       <img src="src/img/event/e44.jpg" alt="이벤트44">
+        <div class="inner_txt">
+            <h3>8월부터 10월까지 CGV C-Day 이벤트!</h3>
+            <p>2020.07.31~2020.08.31</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e45.jpg" alt="이벤트45">
+        <div class="inner_txt">
+            <h3>패스트오더 카카오페이로 결제하고 4천원 할인받자.</h3>
+            <p>2020.08.05~2020.09.01</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e46.jpg" alt="이벤트46">
+        <div class="inner_txt">
+            <h3>스마일페이 3,000원 할인쿠폰</h3>
+            <p>2020.07.31~2020.08.31</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e47.jpg" alt="이벤트47">
+        <div class="inner_txt">
+            <h3>OK캐쉬백 포인트로 CGV에서 다양하게 즐기자!</h3>
+            <p>2016.02.01~2020.12.31</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e48.jpg" alt="이벤트48">
+        <div class="inner_txt">
+            <h3>아시아나마일리지로 CGV영화가 무료!</h3>
+            <p>2016.01.22~2020.12.31</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e49.jpg" alt="이벤트49">
+        <div class="inner_txt">
+            <h3>CGV에서 하나머니 하나로 OK!</h3>
+            <p>2018.11.02~2020.12.31</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e50.jpg" alt="이벤트50">
+        <div class="inner_txt">
+            <h3>기아자동차 레드멤버스 회원 전용 파격 혜택!</h3>
+            <p>2020.03.09~2020.12.31</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e51.jpg" alt="이벤트51">
+        <div class="inner_txt">
+            <h3>삼성U포인트로 영화보는 방법 공개!</h3>
+            <p>2015.01.01~2020.12.31</p>
+        </div>
+    </a>
+</li>
+<li>
+    <a href="#">
+       <img src="src/img/event/e52.jpg" alt="이벤트52">
+        <div class="inner_txt">
+            <h3>S-OIL포인트로 영화 마음껏 보세요</h3>
+            <p>2015.01.01~2020.09.30</p>
+        </div>
+    </a>
+</li>

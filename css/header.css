@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+header.bg_b{color: #efefef;}
+header.bg_w{color: #4d4d4d;}
+.header_inner{
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header_inner .header__title{
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.header__title img{width: 100px; transform: translateX(10px)}
+
+.menuOpen,
+.menuClose{display: none;}
+
+.gnb{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.gnb a{
+    float: left;
+    width: 20%;
+    padding: 15px 15px 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+}
+.gnb a:hover{border-color: #e71a0f;}
+
+.mobile{position: relative;}
+.tnb_left{
+    position: absolute;
+    top: -25px;
+    left: 15px;
+}
+.tnb_left li{
+    float: left;
+    margin-right: 10px;
+}
+.tnb_right{
+    position: absolute;
+    top: -25px;
+    right: 15px;
+}
+.tnb_right li{
+    float: left;
+    margin-left: 10px;
+}
+.tnb_right li a:hover,
+.tnb_left li a:hover{color:#e71a0f}
+
+@media all and (max-width:1023px){
+/*    .gnb a{font-size: 1.6rem}*/
+    .mobile{
+        position: fixed;
+        top: 0;
+        right: 100%;
+        width: 100%;
+        height: 100%;
+        background: #222 url(../src/img/logo.png) no-repeat left 55% bottom 5%;
+        color: #efefef;
+        transition: all 0.5s;
+        z-index: 999;
+    }
+    .menuOpen{
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        display: block;
+        transform: translateY(-50%);
+    }
+    .gnb{
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        transform: translateY(-50%);
+    }
+    .gnb a{
+        float: none;
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+    .gnb a:first-child{border-top: 1px solid #ccc;}
+    .gnb a:hover{color: #e71a0f; border-color: #ccc;}
+    .menuClose{
+        position: absolute;
+        top: 30px;
+        left: 15px;
+        display: block;
+    }
+    .menuOpen:active,
+    .menuClose:active{color: #e71a0f}
+    
+    .tnb_left{
+        top: 43px;
+        left: auto;
+        right: 15px;
+    }
+    .tnb_left li{
+        float: left;
+        margin: 0 0 0 10px;
+    }
+    .tnb_right{
+        top: 15px;
+        right: 15px;
+    }
+    
+}
