@@ -1,0 +1,52 @@
+<li>
+    <a href="#"><img src="src/img/store/s25.jpg" alt="스토어25"></a>
+    <div class="text">
+        <h3>CGV콤보</h3>
+        <p>팝콘(L)1+탄산음료(M)2</p>
+        <div>
+            <span>8,900원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s26.jpg" alt="스토어26"></a>
+    <div class="text">
+        <h3>더블콤보</h3>
+        <p>팝콘(M)2+탄산음료(M)2</p>
+        <div>
+            <span>11,900원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s27.jpg" alt="스토어27"></a>
+    <div class="text">
+        <h3>스몰세트</h3>
+        <p>팝콘(M)1+탄산음료(M)1</p>
+        <div>
+            <span>6,200원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s28.jpg" alt="스토어28"></a>
+    <div class="text">
+        <h3>라지콤보</h3>
+        <p>팝콘(L)2+탄산음료(L)2</p>
+        <div>
+            <span>13,900원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>

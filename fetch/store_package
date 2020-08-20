@@ -1,0 +1,65 @@
+<li>
+    <a href="#"><img src="src/img/store/s1.jpg" alt="스토어1"></a>
+    <div class="text">
+        <h3>둘이서 먹어주라</h3>
+        <p>일반 영화관람권 2매 + 완제팝콘1개+에이드M 2잔</p>
+        <div>
+            <span>23,900원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s2.jpg" alt="스토어2"></a>
+    <div class="text">
+        <h3>시원하게 BEER주라</h3>
+        <p>일반 영화관람권 2매 + 즉석버터구이오징어2(몸통+다리)+맥주2</p>
+        <div>
+            <span>30,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s3.jpg" alt="스토어3"></a>
+    <div class="text">
+        <h3>무난하게 먹어주라</h3>
+        <p>일반 영화관람권 2매 + CGV콤보 1개(팝콘L1+탄산음료M2)</p>
+        <div>
+            <span>22,900원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s4.jpg" alt="스토어4"></a>
+    <div class="text">
+        <h3>혼자서도 BEER주라</h3>
+        <p>일반 영화관람권 1매 + 즉석버터구이오징어1(몸통OR다리)+맥주1</p>
+        <div>
+            <span>15,500원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s5.jpg" alt="스토어5"></a>
+    <div class="text">
+        <h3>혼자서 먹어주라</h3>
+        <p>일반 영화관람권 1매 + 스몰셋트(팝콘M1+음료M1</p>
+        <div>
+            <span>12,700원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>

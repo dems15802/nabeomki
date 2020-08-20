@@ -1,0 +1,65 @@
+<li>
+    <a href="#"><img src="src/img/store/s47.jpg" alt="스토어47"></a>
+    <div class="text">
+        <h3>[영등포전용]롤롤 라면팩</h3>
+        <p>롤롤 2시간 이용권+라면세트(라면1개+탄산음료M1)</p>
+        <div>
+            <span>10,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s48.jpg" alt="스토어48"></a>
+    <div class="text">
+        <h3>신과함께VR PLUS 이용권</h3>
+        <p>신과함께VR 이용권 + VR 1회 이용권</p>
+        <div>
+            <span>10,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s49.jpg" alt="스토어49"></a>
+    <div class="text">
+        <h3>VR 3회 이용권</h3>
+        <p>VR 1회 이용권 x 3</p>
+        <div>
+            <span>12,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s50.jpg" alt="스토어50"></a>
+    <div class="text">
+        <h3>VR 1회 이용권</h3>
+        <p>VR 1회 이용권</p>
+        <div>
+            <span>5,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s51.jpg" alt="스토어51"></a>
+    <div class="text">
+        <h3>롤롤 1시간 이용권</h3>
+        <p>롤롤 1시간 이용권</p>
+        <div>
+            <span>4,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>

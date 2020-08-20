@@ -41,7 +41,7 @@ body{
 .section_container section h2 a i{margin-left: 5px;}
 .section_container section h2 a:hover i{animation: moveX 0.5s infinite alternate}
 
-.section_container .slider_area{
+.movies .slider_area{
     position: relative;
     padding: 0 50px;
 }
@@ -70,6 +70,7 @@ body{
 /*    width: 9.5360%;*/
     height: 260px;
     margin-right: 10px;
+/*    animation: fadeIn 1s forwards;*/
 }
 .slider_wrap li:last-child{margin-right: 0;}
 .slider_wrap li:after{
@@ -117,7 +118,7 @@ body{
     display: inline-block;
     width: 40%;
     height: 30px;
-    line-height: 30px;
+    line-height: 28px;
     margin-right: 5px;
     color: #efefef;
     border: 1px solid #efefef;

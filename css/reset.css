@@ -22,7 +22,7 @@ caption,figcaption{font-size: 0; line-height: 0; height: 0; overflow: hidden; te
 img{width: 100%; vertical-align: top;}
 
 .hidden{
-    display: block;
+/*    display: inline-block;*/
     width: 0;
     height: 0;
     line-height: 0;
@@ -37,11 +37,20 @@ input, button{
     background: none;
     outline: none;
 }
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{cursor: pointer;}
+
 button{cursor: pointer; color: inherit}
 
 html{font-size:62.5%;}
 
 body{
-    font: 1.4rem/1.6 'Baloo Tamma 2', 'Noto Sans KR', 'sans-serif';
+    font: 1.4rem/1.6 /*'Baloo Tamma 2', */'Noto Sans KR', 'sans-serif';
     color: #4d4d4d;
+}
+
+input::placeholder{
+    font: 1.4rem/1.6 /*'Baloo Tamma 2', */'Noto Sans KR', 'sans-serif';
+    color: #ccc;
 }

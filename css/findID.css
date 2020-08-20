@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+
+main > section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+section h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+main .content{min-height: 500px;}
+
+
+#findIdForm{
+    max-width: 400px;
+    margin: 0 auto;
+}
+#findIdForm fieldset{
+    position: relative;
+    padding: 3.5em;
+}
+
+#findIdForm input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#findIdForm input[type="submit"]{
+    height: 50px;
+    line-height: 38px;
+    background: #e71a0f;
+    border-color: #e71a0f;
+    color: #fff;
+    font-size: 1.6rem;
+    transition: all 0.5s;
+}
+#findIdForm input[type="submit"]:hover{
+    background: #fff;
+    color: #e71a0f;
+}
+#findIdForm p{
+    font-size: 1.3rem;
+    color: #999;
+    text-align: justify;
+}
+#findIdForm p a:last-child{float: right;}
+#findIdForm p a{transition: all 0.5s;}
+#findIdForm p a:hover{color: #e71a0f;}
+
+#findIdForm .bars{
+    position: absolute;
+    display: block;
+    background: #e71a0f;
+}
+.barTop{
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    animation: barWidth 0.5s forwards;
+}
+.barRight{
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 0;
+    animation: barHeight 0.5s forwards 0.5s;
+}
+.barBottom{
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 3px;
+    animation: barWidth 0.5s forwards 1s;
+}
+.barLeft{
+    bottom: 0;
+    left: 0;
+    width: 3px;
+    height: 0;
+    animation: barHeight 0.5s forwards 1.5s;
+}
+
+@keyframes barHeight{
+    100%{height: 100%}
+}
+@keyframes barWidth{
+    100%{width: 100%}
+}
+/*
+.eventListContainer li{
+    float: left;
+    width: 24%;
+    margin: 0 1.3333% 1.3333% 0;
+}
+.eventListContainer li:nth-child(4n){margin-right: 0;}
+.eventListContainer li a{
+    display:block;
+}
+.eventListContainer li a .inner_txt{
+    height: 55px;
+    line-height: 1.2;
+    padding: 10px 5px;
+    background: #efefef;
+}
+.inner_txt h3{
+    margin-bottom: 10px;
+    font-size: 1.4rem
+}
+*/
+
+@media all and (max-width:1023px){
+    .eventListContainer li{
+        width: 32.3333%;
+        margin: 0 1.5000% 1.5000% 0;
+    }
+    .eventListContainer li:nth-child(4n){margin-right: 1.5000%;}
+    .eventListContainer li:nth-child(3n){margin-right: 0;}
+}
+
+@media all and (max-width:767px){
+    .eventListContainer li{
+        width: 100%;
+        margin: 0 0 2%;
+    }
+    .eventListContainer li:nth-child(4n){margin-right: 0;}
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+
+.banner{
+    height: 300px;
+    background: url(../src/img/store/store_bg2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+main > section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+section h2{
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+.categoryBtns{margin-bottom: 30px;}
+.categoryBtns button{
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #ccc;
+    background: #eee;
+    box-sizing: border-box;
+}
+.categoryBtns button.on,
+.categoryBtns button:hover{
+    background: #fff;
+    color:#e71a0f;
+}
+main .content{min-height: 500px; }
+.storeListContainer li{
+    float: left;
+    width: 24%;
+    margin: 0 1.3333% 1.3333% 0;
+    opacity: 0;
+    transform: translateY(25%);
+    animation: listUp 1s forwards;
+}
+.storeListContainer li:nth-child(4n){margin-right: 0;}
+
+.storeListContainer .text h3{margin: 10px 0;padding: 0 5px; font-size: 1.8rem}
+.storeListContainer .text p{
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding: 0 5px; 
+    font-size: 1.4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.storeListContainer .text div{
+    padding: 0 5px;
+    font-size: 2rem
+}
+.storeListContainer .text div a{margin-left: 5px; transition: color 0.5s;}
+.storeListContainer .text div a:hover{color:#e71a0f;}
+
+@keyframes listUp{
+    0{
+        opacity: 0;
+        transform: translateY(25%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media all and (max-width:1023px){
+    .storeListContainer li{
+        width: 32.3333%;
+        margin: 0 1.5000% 1.5000% 0;
+    }
+    .storeListContainer li:nth-child(4n){margin-right: 1.5000%;}
+    .storeListContainer li:nth-child(3n){margin-right: 0;}
+}
+
+@media all and (max-width:767px){
+    .storeListContainer li{
+        width: 100%;
+        margin: 0 0 2%;
+    }
+    .storeListContainer li:nth-child(4n){margin-right: 0;}
+}

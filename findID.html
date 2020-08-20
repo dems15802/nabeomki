@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>CGV | 이벤트</title>
+    <title>CGV | 아이디 찾기</title>
     <link rel="icon" sizes="16x16" type="image/png" href="src/img/favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/findID.css">
     <script src="js/header_mobile.js" defer></script>
-    <script type="module" src="js/categoryBtnHandler.js" defer></script>
 </head>
 
 <body>
@@ -43,17 +42,24 @@
         </header>
         <main id="main">
             <section>
-                <h2>EVENT</h2>
-                <div class="categoryBtns cf">
-                    <button id="event_special" class="on">스페셜</button>
-                    <button id="event_movie">영화</button>
-                    <button id="event_membership">멤버십</button>
-                    <button id="event_alliance">제휴</button>
-                </div>
+                <h2>아이디 찾기</h2>
                 <div class="content">
-                    <ul class="contentListContainer eventListContainer cf">
-
-                    </ul>
+                    <form method="post" action="#" name="findIdForm" id="findIdForm">
+                        <fieldset>
+                            <legend class="hidden">아이디 찾기</legend>
+                            <input type="email" id="email" name="email" required placeholder="이메일을 입력하세요">
+                            <input type="text" id="username" name="username" required placeholder="이름을 입력하세요">
+                            <input type="submit" id="submit" name="submit" value="아이디 찾기">
+                            <p class="cf">
+                                <a href="findPassword.html">비밀번호 찾기</a>
+                                <a href="join.html">회원가입</a>
+                            </p>
+                            <span class="bars barTop"></span>
+                            <span class="bars barRight"></span>
+                            <span class="bars barBottom"></span>
+                            <span class="bars barLeft"></span>
+                        </fieldset>
+                    </form>
                 </div>
             </section>
         </main>

@@ -10,9 +10,8 @@ function showDayCount(element,yy,mm,dd){
         const li = element.closest("li"),
               movieBtns = li.querySelector(".movieBtns"),
               ticketingBtn = movieBtns.firstElementChild;
-        
         dayCount.innerText = `D-${countDate}`;
-        ticketingBtn.style.display = "none";
+        if(countDate > 2){ticketingBtn.style.display = "none";}
     }else{
         const li = element.closest("li");/*,
               ul = li.parentNode;*/

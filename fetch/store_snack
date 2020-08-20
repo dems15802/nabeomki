@@ -1,0 +1,60 @@
+<li>
+    <a href="#"><img src="src/img/store/s42.jpg" alt="스토어42"></a>
+    <div class="text">
+        <h3>칠리치즈나쵸</h3>
+        <div>
+            <span>4,500원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s43.jpg" alt="스토어43"></a>
+    <div class="text">
+        <h3>플레인핫도그</h3>
+        <div>
+            <span>4,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s44.jpg" alt="스토어44"></a>
+    <div class="text">
+        <h3>칠리치즈핫도그</h3>
+        <div>
+            <span>4,500원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s45.jpg" alt="스토어45"></a>
+    <div class="text">
+        <h3>맛밤</h3>
+        <div>
+            <span>3,500원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s46.jpg" alt="스토어46"></a>
+    <div class="text">
+        <h3>오징어(완제품)</h3>
+        <div>
+            <span>3,500원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>

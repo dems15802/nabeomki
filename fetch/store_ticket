@@ -1,0 +1,72 @@
+<li>
+    <a href="#"><img src="src/img/store/s6.jpg" alt="스토어6"></a>
+    <div class="text">
+        <h3>CGV 영화관람권</h3>
+        <div>
+            <span>10,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s7.jpg" alt="스토어7"></a>
+    <div class="text">
+        <h3>CGV IMAX관람권</h3>
+        <div>
+            <span>15,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s8.jpg" alt="스토어8"></a>
+    <div class="text">
+        <h3>CGV 골드클래스</h3>
+        <div>
+            <span>35,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s9.jpg" alt="스토어9"></a>
+    <div class="text">
+        <h3>CGV 씨네드쉐프 관람권</h3>
+        <div>
+            <span>45,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s10.jpg" alt="스토어10"></a>
+    <div class="text">
+        <h3>CGV 4DX관람권</h3>
+        <div>
+            <span>18,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>
+<li>
+    <a href="#"><img src="src/img/store/s11.jpg" alt="스토어11"></a>
+    <div class="text">
+        <h3>CGV 3D관람권</h3>
+        <div>
+            <span>12,000원</span>
+            <a href="#"><span class="hidden">구매하기</span><i class="fas fa-shopping-bag"></i></a>
+            <a href="#"><span class="hidden">선물하기</span><i class="fas fa-gift"></i></a>
+            <a href="#"><span class="hidden">장바구니</span><i class="fas fa-cart-plus"></i></a>
+        </div>
+    </div>
+</li>

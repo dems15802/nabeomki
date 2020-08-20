@@ -6,9 +6,10 @@
     <title>CGV | 이벤트</title>
     <link rel="icon" sizes="16x16" type="image/png" href="src/img/favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/store.css">
     <script src="js/header_mobile.js" defer></script>
     <script type="module" src="js/categoryBtnHandler.js" defer></script>
+    <script type="module" src="js/store_listAnimation.js" defer></script>
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                         <a href="movies.html">영화</a>
                         <a href="#">영화관</a>
                         <a href="event.html">이벤트</a>
-                        <a href="store.html">스토어</a>
+                        <a href="#">스토어</a>
                     </nav>
                     <ul class="tnb_left cf">
                         <li><a href="login.html">로그인</a></li>
@@ -41,18 +42,25 @@
                 </div>
             </div>
         </header>
+        <div class="banner">
+            
+        </div>
         <main id="main">
             <section>
-                <h2>EVENT</h2>
+                <h2>스토어</h2>
                 <div class="categoryBtns cf">
-                    <button id="event_special" class="on">스페셜</button>
-                    <button id="event_movie">영화</button>
-                    <button id="event_membership">멤버십</button>
-                    <button id="event_alliance">제휴</button>
+                    <button id="store_package" class="on">패키지</button>
+                    <button id="store_ticket">영화관람권</button>
+                    <button id="store_giftcard">기프트카드</button>
+                    <button id="store_combo">콤보</button>
+                    <button id="store_popcorn">팝콘</button>
+                    <button id="store_drink">음료</button>
+                    <button id="store_snack">스낵</button>
+                    <button id="store_playzone">플레이존</button>
                 </div>
                 <div class="content">
-                    <ul class="contentListContainer eventListContainer cf">
-
+                    <ul class="contentListContainer storeListContainer cf">
+                        
                     </ul>
                 </div>
             </section>
