@@ -8,8 +8,12 @@
     <link rel="icon" sizes="16x16" type="image/png" href="src/img/favicon.png">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="css/thearter.css">
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cb6c2a86255a996cce821166f4d1a4d9&libraries=services"></script>
     <script src="js/header_mobile.js" defer></script>
-    <!--    <script type="module" src="js/categoryBtnHandler.js" defer></script>-->
+    <script type="module" src="js/categoryBtnHandler.js" defer></script>
+    <script type="module" src="js/theater_btnHandler.js" defer></script>
+    <script type="module" src="js/thearterMap.js" defer></script>
+    <script type="module" src="js/theaterObject.js" defer></script>
 </head>
 
 <body>
@@ -45,20 +49,21 @@
         <main id="main">
             <section>
                 <h2>영화관</h2>
-                <div class="thearterlistContainner">
-                    <div class="categoryBtns cf">
-                        <button id="" class="on">서울</button>
-                        <button id="">경기</button>
-                        <button id="">인천</button>
-                        <button id="">강원</button>
-                        <button id="">대전/충청</button>
-                        <button id="">대구</button>
-                        <button id="">부산/울산</button>
-                        <button id="">경상</button>
-                        <button id="">광주/전라/제주</button>
+                <span class="mobileChooseArea">CGV강남</span>
+                <div class="thearterlistContainner cf">
+                    <div class="categoryBtns thearterArea cf">
+                        <button id="thearterCity1" class="on">서울</button>
+                        <button id="thearterCity2">경기</button>
+                        <button id="thearterCity3">인천</button>
+                        <button id="thearterCity4">강원</button>
+                        <button id="thearterCity5">대전/충청</button>
+                        <button id="thearterCity6">대구</button>
+                        <button id="thearterCity7">부산/울산</button>
+                        <button id="thearterCity8">경상</button>
+                        <button id="thearterCity9">광주/전라/제주</button>
                     </div>
-                    <ul class="thearterList">
-                        <li><button>CAR CINEMA</button></li>
+                    <ul class="thearterList cf">
+                        <li><button class="on">CAR CINEMA</button></li>
                         <li><button>CGV강남</button></li>
                         <li><button>CGV강변</button></li>
                         <li><button>CGV건대입구</button></li>
@@ -87,12 +92,11 @@
                         <li><button>CGV피카디리1958</button></li>
                         <li><button>CGV하계</button></li>
                         <li><button>CGV홍대</button></li>
-                        <li><button>CINE de CHEF 압구정</button></li>
-                        <li><button>CINE de CHEF 용산아이파크몰</button></li>
                     </ul>
                 </div>
                 <div class="content">
-                    <ul class="contentListContainer eventListContainer cf">
+                    <div id="map" style="width:100%;height:350px;"></div>
+                    <ul class="contentListContainer cf">
 
                     </ul>
                 </div>
