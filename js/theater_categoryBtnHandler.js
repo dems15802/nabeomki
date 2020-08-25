@@ -1,5 +1,4 @@
-import {init as paintCountDate} from "./movies_dateCount.js";
-import {init as storeListAnimation} from "./store_listAnimation.js";
+import {init as theaterBtnHandler} from "./theater_btnHandler.js";
 
 const categoryBtns = document.querySelector(".categoryBtns"),
       categoryBtn = categoryBtns.querySelectorAll("button"),
@@ -20,13 +19,8 @@ function defaultShow(){
         
        
     }else{
-        
-        if(hasClass.contains("eventListContainer")){
-            fetchPage("event_special");
-        }else if(hasClass.contains("moviesListContainer")){
-            fetchPage("show");
-        }else if(hasClass.contains("storeListContainer")){
-            fetchPage("store_package");
+        if(categoryBtns.classList.contains("thearterArea")){
+            fetchPage("thearterCity1");
         }
     }
     
@@ -36,10 +30,13 @@ function fetchPage(id){
     const hasClass = contentListContainer.classList;
     fetch(`fetch/${id}`).then(function(response){
         response.text().then(function(text){
-                contentListContainer.innerHTML = text;
-            /*import*/
-            if(id === "release"){paintCountDate();}
-            if(hasClass.contains("storeListContainer")){storeListAnimation();}
+            if(categoryBtns.classList.contains("thearterArea")){
+                const thearterlistContainner = categoryBtns.parentNode,
+                      thearterList = thearterlistContainner.querySelector(".thearterList");
+                thearterList.innerHTML = text;
+                /*import*/
+                theaterBtnHandler(thearterList);
+            }
         })
     });
     window.location.hash = `!${id}`
